@@ -27,7 +27,7 @@ const Form = () => {
       // Display summary of entered data
       alert(JSON.stringify(formData, null, 2));
     } else {
-      alert("Please fix the errors in the form");
+      alert("Please fill the details properly");
     }
   };
 
